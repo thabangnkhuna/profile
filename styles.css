@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Bio section styles */
+.bio {
+    margin-bottom: 30px;
+}
+
+/* Contact section styles */
+.contact {
+    margin-bottom: 30px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Skills section styles */
+.skills {
+    margin-bottom: 30px;
+}
+
+.skills ul {
+    columns: 2;
+    list-style: none;
+    padding: 0;
+}
+
+/* Education section styles */
+.education {
+    margin-bottom: 30px;
+}
+
+.education p {
+    margin: 0;
+}
+
+.education strong {
+    font-weight: bold;
+}
+
+/* Work experience section styles */
+.work-experience {
+    margin-bottom: 30px;
+}
+
+.work-experience h3 {
+    margin-bottom: 10px;
+}
+
+.work-experience p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .skills ul {
+        columns: 1;
+    }
+}
